@@ -1,5 +1,6 @@
 use supermarket_discounts;
 
+-- Proverka dali tabelite se poplneti
 select * from user;
 select * from inspector;
 select * from deliveryperson;
