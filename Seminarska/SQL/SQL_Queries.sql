@@ -36,11 +36,7 @@ WHERE YEAR(date) = 2024;
 select count(DISTINCT(supermarket_id)) as kolku
 from fine;
 
--- lazni zapisi za order
-SELECT po.product_id, po.date AS naracka_datum, po.price AS cena_naracka, pu.new_price AS cena_vo_toj_moment
-FROM  ProductOrder AS po, ProductUpdate AS pu 
-WHERE po.product_id = pu.product_id AND po.date BETWEEN pu.start_date AND pu.end_date
-ORDER BY po.product_id, po.date;
+-- ZADACHA 3
 
 -- Prvo prashanje
 SELECT p.product_id, p.name, s.supermarket_id, s.name

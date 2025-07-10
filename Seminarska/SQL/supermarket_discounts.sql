@@ -123,60 +123,15 @@ ALTER TABLE ProductOrder
 ADD COLUMN priceDelivery INT;
 
 ALTER TABLE ProductOrder
+ADD COLUMN date DATE;
+
+ALTER TABLE ProductOrder
 MODIFY COLUMN time INT;
 
 ALTER TABLE SupermarketProducts
 MODIFY COLUMN stock char(2);
 
-SHOW VARIABLES LIKE 'secure_file_priv';
-
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Market.csv'
-INTO TABLE Supermarket
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS
-(supermarket_id, name, address, chain, no_of_stores, contact, no_of_employees);
-
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Proizvodi.csv'
-INTO TABLE Product
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS
-(product_id, name, description, production_date, expiration_date, status);
-
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Kupuvac.csv'
-INTO TABLE buyer
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS
-(buyer_id, address, city);
-
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Naracki.csv'
-INTO TABLE productorder
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS
-(order_id, product_id, buyer_id, delivery_id, status, price, priceDelivery, time);
-
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Kazni.csv'
-INTO TABLE fine
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS
-(fine_id, supermarket_id, inspector_id, date, amount, serial_number);
-
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/MarketProizvodi.csv'
-INTO TABLE supermarketproducts
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS
-(sp_id, supermarket_id, product_id, price, quantity, stock);
+-- ZADACHA 2
 
 -- Azuriranje na proizvodite
 UPDATE SupermarketProducts
@@ -214,5 +169,34 @@ SET no_of_orders = (
 UPDATE DeliveryPerson
 SET no_of_orders = 0 WHERE no_of_orders IS NULL;
 
--- Lazni zapisi ?
+-- Lazni zapisi 
 
+-- Provereni se site tabeli edinstveniot lazen zapis pronajden e vo tabelata fine kade inspector id e nepostoecki vo inspector
+SELECT * FROM Fine
+WHERE inspector_id NOT IN (SELECT inspector_id FROM Inspector) OR supermarket_id NOT IN (SELECT supermarket_id FROM Supermarket);
+   
+DELETE FROM Fine
+WHERE inspector_id NOT IN (SELECT inspector_id FROM Inspector) OR supermarket_id NOT IN (SELECT supermarket_id FROM Supermarket);
+
+-- Nemame referenciranje na id-to na fine vo nikoja druga tabela i mozeme da go updejetneme AUTO INCREMENTOT da nema dupka
+UPDATE Fine
+SET fine_id = fine_id - 1
+WHERE fine_id > 99;
+
+-- Proverka dali cenata kaj productOrder e istata so novata cena kaj productUpdate za konkreten datum
+SELECT po.product_id, po.date AS naracka_datum, po.price AS cena_naracka, pu.new_price AS cena_vo_toj_moment, pu.start_date, pu.end_date
+FROM  ProductOrder AS po, ProductUpdate AS pu 
+WHERE po.product_id = pu.product_id AND po.date BETWEEN pu.start_date AND pu.end_date
+ORDER BY po.product_id;
+
+-- Cenata na narachaniot produkt na konkretniot datum ne e ista so cenata definirana vo tabelata productUpdate 
+-- i zatoa gi updejtirame site ceni da bidat tochni za datumot na koj bil narachan produktot
+UPDATE ProductOrder po
+JOIN ProductUpdate pu ON po.product_id = pu.product_id AND po.date BETWEEN pu.start_date AND pu.end_date
+SET po.price = pu.new_price;
+
+-- Koga kje go izvrsime povtorno ova query gi dobivame site ceni updejtnati so cenata sto bila vo toj moment
+SELECT po.product_id, po.date AS naracka_datum, po.price AS cena_naracka, pu.new_price AS cena_vo_toj_moment, pu.start_date, pu.end_date
+FROM  ProductOrder AS po, ProductUpdate AS pu 
+WHERE po.product_id = pu.product_id AND po.date BETWEEN pu.start_date AND pu.end_date
+ORDER BY po.product_id;
