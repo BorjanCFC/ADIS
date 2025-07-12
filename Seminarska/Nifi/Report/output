@@ -1,0 +1,517 @@
+[ {
+  "update_id" : 114,
+  "product_id" : 91,
+  "old_price" : 18,
+  "new_price" : 13,
+  "date" : "1726092000000"
+}, {
+  "update_id" : 155,
+  "product_id" : 15,
+  "old_price" : 139,
+  "new_price" : 182,
+  "date" : "1726092000000"
+}, {
+  "update_id" : 633,
+  "product_id" : 66,
+  "old_price" : 779,
+  "new_price" : 475,
+  "date" : "1726092000000"
+}, {
+  "update_id" : 1121,
+  "product_id" : 64,
+  "old_price" : 74,
+  "new_price" : 58,
+  "date" : "1726092000000"
+}, {
+  "update_id" : 2221,
+  "product_id" : 55,
+  "old_price" : 819,
+  "new_price" : 974,
+  "date" : "1726092000000"
+}, {
+  "update_id" : 2470,
+  "product_id" : 61,
+  "old_price" : 96,
+  "new_price" : 120,
+  "date" : "1726092000000"
+}, {
+  "update_id" : 2559,
+  "product_id" : 100,
+  "old_price" : 36,
+  "new_price" : 22,
+  "date" : "1726092000000"
+}, {
+  "update_id" : 2949,
+  "product_id" : 55,
+  "old_price" : 819,
+  "new_price" : 786,
+  "date" : "1726092000000"
+}, {
+  "update_id" : 3474,
+  "product_id" : 1,
+  "old_price" : 391,
+  "new_price" : 301,
+  "date" : "1726092000000"
+}, {
+  "update_id" : 4087,
+  "product_id" : 35,
+  "old_price" : 48,
+  "new_price" : 59,
+  "date" : "1726092000000"
+}, {
+  "update_id" : 4104,
+  "product_id" : 94,
+  "old_price" : 436,
+  "new_price" : 523,
+  "date" : "1726092000000"
+}, {
+  "update_id" : 4222,
+  "product_id" : 96,
+  "old_price" : 219,
+  "new_price" : 258,
+  "date" : "1726092000000"
+}, {
+  "update_id" : 4394,
+  "product_id" : 30,
+  "old_price" : 39,
+  "new_price" : 28,
+  "date" : "1726092000000"
+}, {
+  "update_id" : 139,
+  "product_id" : 70,
+  "old_price" : 152,
+  "new_price" : 155,
+  "date" : "1725919200000"
+}, {
+  "update_id" : 1125,
+  "product_id" : 24,
+  "old_price" : 125,
+  "new_price" : 135,
+  "date" : "1725919200000"
+}, {
+  "update_id" : 1996,
+  "product_id" : 52,
+  "old_price" : 749,
+  "new_price" : 584,
+  "date" : "1725919200000"
+}, {
+  "update_id" : 2123,
+  "product_id" : 52,
+  "old_price" : 749,
+  "new_price" : 584,
+  "date" : "1725919200000"
+}, {
+  "update_id" : 3929,
+  "product_id" : 81,
+  "old_price" : 170,
+  "new_price" : 122,
+  "date" : "1725919200000"
+}, {
+  "update_id" : 4491,
+  "product_id" : 37,
+  "old_price" : 62,
+  "new_price" : 59,
+  "date" : "1725919200000"
+}, {
+  "update_id" : 163,
+  "product_id" : 6,
+  "old_price" : 748,
+  "new_price" : 688,
+  "date" : "1726178400000"
+}, {
+  "update_id" : 504,
+  "product_id" : 91,
+  "old_price" : 18,
+  "new_price" : 10,
+  "date" : "1726178400000"
+}, {
+  "update_id" : 642,
+  "product_id" : 22,
+  "old_price" : 25,
+  "new_price" : 31,
+  "date" : "1726178400000"
+}, {
+  "update_id" : 811,
+  "product_id" : 25,
+  "old_price" : 25,
+  "new_price" : 30,
+  "date" : "1726178400000"
+}, {
+  "update_id" : 2332,
+  "product_id" : 57,
+  "old_price" : 74,
+  "new_price" : 94,
+  "date" : "1726178400000"
+}, {
+  "update_id" : 4390,
+  "product_id" : 80,
+  "old_price" : 305,
+  "new_price" : 323,
+  "date" : "1726178400000"
+}, {
+  "update_id" : 4414,
+  "product_id" : 5,
+  "old_price" : 190,
+  "new_price" : 123,
+  "date" : "1726178400000"
+}, {
+  "update_id" : 5005,
+  "product_id" : 95,
+  "old_price" : 42,
+  "new_price" : 47,
+  "date" : "1726178400000"
+}, {
+  "update_id" : 5069,
+  "product_id" : 100,
+  "old_price" : 36,
+  "new_price" : 32,
+  "date" : "1726178400000"
+}, {
+  "update_id" : 211,
+  "product_id" : 96,
+  "old_price" : 219,
+  "new_price" : 179,
+  "date" : "1726351200000"
+}, {
+  "update_id" : 741,
+  "product_id" : 41,
+  "old_price" : 179,
+  "new_price" : 127,
+  "date" : "1726351200000"
+}, {
+  "update_id" : 1496,
+  "product_id" : 53,
+  "old_price" : 719,
+  "new_price" : 798,
+  "date" : "1726351200000"
+}, {
+  "update_id" : 1531,
+  "product_id" : 100,
+  "old_price" : 36,
+  "new_price" : 30,
+  "date" : "1726351200000"
+}, {
+  "update_id" : 1603,
+  "product_id" : 80,
+  "old_price" : 305,
+  "new_price" : 402,
+  "date" : "1726351200000"
+}, {
+  "update_id" : 2169,
+  "product_id" : 4,
+  "old_price" : 33,
+  "new_price" : 34,
+  "date" : "1726351200000"
+}, {
+  "update_id" : 2574,
+  "product_id" : 76,
+  "old_price" : 60,
+  "new_price" : 58,
+  "date" : "1726351200000"
+}, {
+  "update_id" : 2604,
+  "product_id" : 28,
+  "old_price" : 329,
+  "new_price" : 302,
+  "date" : "1726351200000"
+}, {
+  "update_id" : 3658,
+  "product_id" : 98,
+  "old_price" : 179,
+  "new_price" : 137,
+  "date" : "1726351200000"
+}, {
+  "update_id" : 4319,
+  "product_id" : 84,
+  "old_price" : 362,
+  "new_price" : 365,
+  "date" : "1726351200000"
+}, {
+  "update_id" : 333,
+  "product_id" : 24,
+  "old_price" : 125,
+  "new_price" : 123,
+  "date" : "1726437600000"
+}, {
+  "update_id" : 1152,
+  "product_id" : 54,
+  "old_price" : 48,
+  "new_price" : 48,
+  "date" : "1726437600000"
+}, {
+  "update_id" : 1786,
+  "product_id" : 22,
+  "old_price" : 25,
+  "new_price" : 20,
+  "date" : "1726437600000"
+}, {
+  "update_id" : 3042,
+  "product_id" : 76,
+  "old_price" : 60,
+  "new_price" : 49,
+  "date" : "1726437600000"
+}, {
+  "update_id" : 3399,
+  "product_id" : 78,
+  "old_price" : 60,
+  "new_price" : 69,
+  "date" : "1726437600000"
+}, {
+  "update_id" : 3842,
+  "product_id" : 86,
+  "old_price" : 76,
+  "new_price" : 57,
+  "date" : "1726437600000"
+}, {
+  "update_id" : 4250,
+  "product_id" : 24,
+  "old_price" : 125,
+  "new_price" : 158,
+  "date" : "1726437600000"
+}, {
+  "update_id" : 4502,
+  "product_id" : 56,
+  "old_price" : 92,
+  "new_price" : 104,
+  "date" : "1726437600000"
+}, {
+  "update_id" : 4672,
+  "product_id" : 48,
+  "old_price" : 315,
+  "new_price" : 346,
+  "date" : "1726437600000"
+}, {
+  "update_id" : 4935,
+  "product_id" : 15,
+  "old_price" : 139,
+  "new_price" : 179,
+  "date" : "1726437600000"
+}, {
+  "update_id" : 429,
+  "product_id" : 53,
+  "old_price" : 719,
+  "new_price" : 783,
+  "date" : "1725832800000"
+}, {
+  "update_id" : 1336,
+  "product_id" : 5,
+  "old_price" : 190,
+  "new_price" : 193,
+  "date" : "1725832800000"
+}, {
+  "update_id" : 1355,
+  "product_id" : 49,
+  "old_price" : 205,
+  "new_price" : 190,
+  "date" : "1725832800000"
+}, {
+  "update_id" : 1387,
+  "product_id" : 24,
+  "old_price" : 125,
+  "new_price" : 150,
+  "date" : "1725832800000"
+}, {
+  "update_id" : 1452,
+  "product_id" : 81,
+  "old_price" : 170,
+  "new_price" : 217,
+  "date" : "1725832800000"
+}, {
+  "update_id" : 1476,
+  "product_id" : 9,
+  "old_price" : 33,
+  "new_price" : 46,
+  "date" : "1725832800000"
+}, {
+  "update_id" : 1747,
+  "product_id" : 1,
+  "old_price" : 391,
+  "new_price" : 504,
+  "date" : "1725832800000"
+}, {
+  "update_id" : 1794,
+  "product_id" : 9,
+  "old_price" : 33,
+  "new_price" : 24,
+  "date" : "1725832800000"
+}, {
+  "update_id" : 2171,
+  "product_id" : 62,
+  "old_price" : 239,
+  "new_price" : 179,
+  "date" : "1725832800000"
+}, {
+  "update_id" : 3753,
+  "product_id" : 24,
+  "old_price" : 125,
+  "new_price" : 93,
+  "date" : "1725832800000"
+}, {
+  "update_id" : 4417,
+  "product_id" : 23,
+  "old_price" : 155,
+  "new_price" : 144,
+  "date" : "1725832800000"
+}, {
+  "update_id" : 4451,
+  "product_id" : 9,
+  "old_price" : 33,
+  "new_price" : 43,
+  "date" : "1725832800000"
+}, {
+  "update_id" : 4475,
+  "product_id" : 51,
+  "old_price" : 179,
+  "new_price" : 193,
+  "date" : "1725832800000"
+}, {
+  "update_id" : 4639,
+  "product_id" : 4,
+  "old_price" : 33,
+  "new_price" : 46,
+  "date" : "1725832800000"
+}, {
+  "update_id" : 4809,
+  "product_id" : 24,
+  "old_price" : 125,
+  "new_price" : 126,
+  "date" : "1725832800000"
+}, {
+  "update_id" : 638,
+  "product_id" : 58,
+  "old_price" : 170,
+  "new_price" : 190,
+  "date" : "1726264800000"
+}, {
+  "update_id" : 871,
+  "product_id" : 69,
+  "old_price" : 157,
+  "new_price" : 128,
+  "date" : "1726264800000"
+}, {
+  "update_id" : 894,
+  "product_id" : 40,
+  "old_price" : 39,
+  "new_price" : 44,
+  "date" : "1726264800000"
+}, {
+  "update_id" : 944,
+  "product_id" : 95,
+  "old_price" : 42,
+  "new_price" : 31,
+  "date" : "1726264800000"
+}, {
+  "update_id" : 975,
+  "product_id" : 19,
+  "old_price" : 11,
+  "new_price" : 11,
+  "date" : "1726264800000"
+}, {
+  "update_id" : 1308,
+  "product_id" : 25,
+  "old_price" : 25,
+  "new_price" : 21,
+  "date" : "1726264800000"
+}, {
+  "update_id" : 1657,
+  "product_id" : 38,
+  "old_price" : 0,
+  "new_price" : 0,
+  "date" : "1726264800000"
+}, {
+  "update_id" : 1904,
+  "product_id" : 42,
+  "old_price" : 729,
+  "new_price" : 670,
+  "date" : "1726264800000"
+}, {
+  "update_id" : 2234,
+  "product_id" : 40,
+  "old_price" : 39,
+  "new_price" : 50,
+  "date" : "1726264800000"
+}, {
+  "update_id" : 2386,
+  "product_id" : 41,
+  "old_price" : 179,
+  "new_price" : 200,
+  "date" : "1726264800000"
+}, {
+  "update_id" : 3593,
+  "product_id" : 99,
+  "old_price" : 68,
+  "new_price" : 83,
+  "date" : "1726264800000"
+}, {
+  "update_id" : 3596,
+  "product_id" : 81,
+  "old_price" : 170,
+  "new_price" : 115,
+  "date" : "1726264800000"
+}, {
+  "update_id" : 3841,
+  "product_id" : 100,
+  "old_price" : 36,
+  "new_price" : 36,
+  "date" : "1726264800000"
+}, {
+  "update_id" : 3856,
+  "product_id" : 81,
+  "old_price" : 170,
+  "new_price" : 119,
+  "date" : "1726264800000"
+}, {
+  "update_id" : 4003,
+  "product_id" : 20,
+  "old_price" : 155,
+  "new_price" : 130,
+  "date" : "1726264800000"
+}, {
+  "update_id" : 2128,
+  "product_id" : 26,
+  "old_price" : 27,
+  "new_price" : 36,
+  "date" : "1726005600000"
+}, {
+  "update_id" : 2155,
+  "product_id" : 8,
+  "old_price" : 32,
+  "new_price" : 43,
+  "date" : "1726005600000"
+}, {
+  "update_id" : 2172,
+  "product_id" : 37,
+  "old_price" : 62,
+  "new_price" : 70,
+  "date" : "1726005600000"
+}, {
+  "update_id" : 2197,
+  "product_id" : 53,
+  "old_price" : 719,
+  "new_price" : 510,
+  "date" : "1726005600000"
+}, {
+  "update_id" : 2552,
+  "product_id" : 44,
+  "old_price" : 525,
+  "new_price" : 535,
+  "date" : "1726005600000"
+}, {
+  "update_id" : 2726,
+  "product_id" : 40,
+  "old_price" : 39,
+  "new_price" : 49,
+  "date" : "1726005600000"
+}, {
+  "update_id" : 3894,
+  "product_id" : 81,
+  "old_price" : 170,
+  "new_price" : 214,
+  "date" : "1726005600000"
+}, {
+  "update_id" : 4788,
+  "product_id" : 78,
+  "old_price" : 60,
+  "new_price" : 63,
+  "date" : "1726005600000"
+} ]
