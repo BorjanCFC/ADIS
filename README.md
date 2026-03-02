@@ -120,51 +120,15 @@ The results of the analytical layer are presented via **Power BI**, using intera
 - market-level comparisons,
 - compliance-oriented insights.
 
----
-
-## Repository Structure
-
-> Note: exact folder names may vary depending on the final organization.
-
-Typical contents include:
-- `README.md` – repository overview (this file)
-- `Seminarska/` – main project deliverables and documentation
-- raw data directory – initial datasets used for processing
-- database artifacts – normalized schema and related scripts/files
-- JSON datasets/models – used for exchange/testing
-- data warehouse artifacts – star/snowflake schema, historical layer, etc.
-- NiFi configs – flows for processing and transformation
-- Power BI reports – `.pbix` files and/or exported resources
-- UML diagrams – Macedonian and English versions
-
----
-
-## How to Use This Repository
-
-1. Start with the **documentation** (requirements and UML) to understand scope and roles.
-2. Review the **relational schema** and **JSON model** to see how the domain is represented.
-3. Inspect the **data warehouse** artifacts to understand the analytics layer.
-4. Open the **Apache NiFi** flows to see how data is ingested/transformed.
-5. Open the **Power BI** reports to explore final dashboards and insights.
-
----
-
 ## Deliverables
 
 This repository aims to provide a complete ADIS project package, including:
 - formal requirements/specification text
-- UML modeling (MK + EN)
+- UML modeling
 - normalized relational database model
 - JSON datasets/models for integration/testing
 - data warehouse design for analytics
 - Apache NiFi configurations for ETL/data prep
 - Power BI interactive reporting
 
----
 
-## Notes
-
-- This is an **analysis/design + data/BI** repository; it is not primarily a web/mobile application codebase.
-- If you want to add a “Run locally” section, you can include the exact tools used for the DB/DWH (e.g., SQL Server/PostgreSQL) and how to import data and connect Power BI.
-
----
